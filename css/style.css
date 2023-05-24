@@ -1,11 +1,40 @@
 body{
-    background-color: rgb(218, 107, 107);
+    background-color: rgb(219, 125, 156);
 }
 
-.titulo_da_pagina{
-    font-size: 150px ;
+.Titulo_da_pagina{
+    font-size: 100px ;
     font-style: italic;
     display: flex;
     justify-content: center;
  
+}
+.Subtitulo_da_pagina{
+    font-size: 30px ;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-size: 30px ;
+    border-top: 30px solid rgb(226, 43, 171);
+    
+ 
+}
+.parágrafo_do_texto{
+    font-size: 23px ;
+    font-style: italic;
+    display: block;
+   
+}
+.foto_minha{
+    display: flex;
+   background-color: rgb(248, 157, 228);
+    margin-top: 20px;
+    justify-content: center;
+
+}
+.Descrição{
+    display: flex;
+   
+    justify-content: center;
+    font-size: 30px ;
 }
