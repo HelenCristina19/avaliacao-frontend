@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(218, 107, 107);
+}
+
+.titulo_da_pagina{
+    font-size: 150px ;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+ 
+}
