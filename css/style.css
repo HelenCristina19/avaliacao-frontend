@@ -1,40 +1,67 @@
 body{
     background-color: rgb(219, 125, 156);
+    text-align: center;
 }
 
-.Titulo_da_pagina{
+.titulo_da_pagina{
     font-size: 100px ;
     font-style: italic;
     display: flex;
     justify-content: center;
  
 }
-.Subtitulo_da_pagina{
+.subtitulo_da_pagina{
     font-size: 30px ;
     font-style: italic;
     display: flex;
     justify-content: center;
     font-size: 30px ;
-    border-top: 30px solid rgb(226, 43, 171);
+    background-color: rgb(226, 43, 171);
     
  
 }
-.parágrafo_do_texto{
+.paragrafo_do_texto{
     font-size: 23px ;
     font-style: italic;
     display: block;
    
+   
 }
-.foto_minha{
+header > div{
     display: flex;
    background-color: rgb(248, 157, 228);
     margin-top: 20px;
-    justify-content: center;
+ 
+   
+}
+header img{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.info{
+    padding: 0px 10px 0px 200px; 
+    font-size: 20px;
 
 }
-.Descrição{
-    display: flex;
+.descricao{
+    font-size: 20px ;
    
-    justify-content: center;
-    font-size: 30px ;
+}
+.descricao h2{
+    background-color: rgb(226, 43, 171);
+}
+
+.rodape {
+    background-color: rgb(226, 43, 171);
+    color: #0f0000;
+    padding: 20px;
+}
+
+
+.hobbie{
+    font-size: 20px ;
+   
+}
+.hobbie h2{
+    background-color: rgb(226, 43, 171);
 }
